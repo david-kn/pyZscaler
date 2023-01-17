@@ -26,6 +26,7 @@ class PolicySetsAPI(APIEndpoint):
         """
 
         template = []
+        
 
         for condition in conditions:
             if isinstance(condition, tuple) and len(condition) == 3:
